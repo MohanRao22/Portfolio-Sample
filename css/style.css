@@ -1,0 +1,96 @@
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Top Bar */
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.menu-items{
+    list-style: none;
+}
+.menu-item a{
+    text-decoration: none;
+    color: white;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+.right-navigator{
+    padding-right:10px;
+}
+.left-navigator{
+    padding-left: 10px;
+}
+
+/* Main Banner */
+.top-banner-section{
+    display: flex;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.top-banner-section{
+    background-color: rgb(181, 181, 181);
+    padding: 20px;
+}
+
+
+/* skill set  */
+.skill{
+    background-color: rgb(218, 223, 223);
+    border-radius: 5px;
+   overflow: hidden;
+}
+.skills-header{
+    margin-bottom: 3em;
+}
+
+.skill img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 1px 16px black;
+    padding: 10px;
+}
+.skills-container{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* Experience Set */
+
+.experience-set{
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience-item{
+    display: flex;
+}
+.exp-image img{
+    width: 150px;
+    height: 150px;
+}
+.exp-name{
+    font-weight: 900;
+}
+.exp-specs{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
